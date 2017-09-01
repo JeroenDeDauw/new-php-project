@@ -1,0 +1,29 @@
+{
+	"name": "such/new-project",
+	"license": "GPL-2.0+",
+	"description": "",
+	"require": {
+		"php": ">=7.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~6.2",
+		"ockcyp/covers-validator": "~0.6",
+		"squizlabs/php_codesniffer": "~3.0",
+		"mediawiki/mediawiki-codesniffer": "~0.12.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Such\\NewProject\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Such\\NewProject\\Tests\\": "tests/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1.x-dev"
+		}
+	}
+}
