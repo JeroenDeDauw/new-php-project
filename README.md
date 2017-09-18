@@ -52,6 +52,8 @@ For development you need to have Docker and Docker-compose installed. Local PHP 
 
     sudo apt-get install docker docker-compose
 
+### Running Composer
+
 To pull in the project dependencies via Composer, run:
 
     make composer install
