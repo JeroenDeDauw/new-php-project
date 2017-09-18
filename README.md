@@ -52,6 +52,16 @@ For development you need to have Docker and Docker-compose installed. Local PHP 
 
     sudo apt-get install docker docker-compose
 
+To pull in the project dependencies via Composer, run:
+
+    make composer install
+
+You can run other Composer commands via `make run`, but at present this does not support argument flags.
+If you need to execute such a command, you can do so in this format:
+
+    docker run --rm --interactive --tty --volume $PWD:/app -w /app\
+     --volume ~/.composer:/composer --user $(id -u):$(id -g) composer composer install -vvv
+
 ### Running the CI checks
 
 To run all CI checks, which includes PHPUnit tests, PHPCS style checks and coverage tag validation, run:
