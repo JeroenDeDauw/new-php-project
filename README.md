@@ -13,7 +13,7 @@ This is a template for starting new PHP projects. Copy or fork to get started qu
 * Docker environment with PHP 7.1 and Composer (so you do not need to have PHP or Composer installed!)
 * Tests and style checks runnable in the Docker environment with simple `make` commands 
 * TravisCI ready
-* Code coverage creation on TravisCI and uploading to ScrutinizerCI
+* Code coverage creation on TravisCI and uploading to ScrutinizerCI (optional)
 * Coverage tag validation
 * Stub production and test classes for ultra-quick start (ideal when doing a kata)
 * COPYING and .gitignore files
