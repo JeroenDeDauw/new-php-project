@@ -2,7 +2,6 @@ language: php
 
 php:
   - 7.1
-  - master
 
 sudo: false
 
@@ -10,7 +9,7 @@ services:
   - docker
 
 install:
-  - travis_retry composer install
+  - travis_retry make composer install
 
 script:
   - composer validate --no-interaction
