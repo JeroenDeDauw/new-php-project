@@ -6,7 +6,7 @@ ifeq (composer,$(firstword $(MAKECMDGOALS)))
   $(eval $(RUN_ARGS):;@:)
 endif
 
-.PHONY: ci
+.PHONY: ci test phpunit cs covers composer
 
 ci: test cs
 
