@@ -8,10 +8,6 @@
     <file>src/</file>
     <file>tests/</file>
 
-    <arg name="extensions" value="php"/>
-    <arg value="s"/>
-    <arg value="p"/>
-
     <rule ref="vendor/mediawiki/mediawiki-codesniffer/MediaWiki/Sniffs/WhiteSpace">
         <exclude name="vendor/mediawiki/mediawiki-codesniffer/MediaWiki/Sniffs/WhiteSpace/SpaceBeforeSingleLineCommentSniff.php" />
     </rule>
