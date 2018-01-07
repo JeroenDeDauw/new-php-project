@@ -62,7 +62,9 @@ You can run other Composer commands via `make run`, but at present this does not
 If you need to execute such a command, you can do so in this format:
 
     docker run --rm --interactive --tty --volume $PWD:/app -w /app\
-     --volume ~/.composer:/composer --user $(id -u):$(id -g) composer composer install -vvv
+     --volume ~/.composer:/composer --user $(id -u):$(id -g) composer composer install --no-scripts
+
+Where `composer install --no-scripts` is the command being run.
 
 ### Running the CI checks
 
