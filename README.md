@@ -10,7 +10,7 @@ This is a template for starting new PHP projects. Copy or fork to get started qu
 
 * Ready-to-go PHPUnit (configuration and working bootstrap)
 * Ready-to-go PHPCS
-* Docker environment with PHP 7.1 and Composer (so you do not need to have PHP or Composer installed!)
+* Docker environment with PHP 7.2 and Composer (so you do not need to have PHP or Composer installed!)
 * Tests and style checks runnable in the Docker environment with simple `make` commands 
 * TravisCI ready
 * Code coverage creation on TravisCI and uploading to ScrutinizerCI (optional)
