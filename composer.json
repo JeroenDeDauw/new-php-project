@@ -1,6 +1,6 @@
 {
 	"name": "such/new-project",
-	"license": "GPL-2.0+",
+	"license": "GPL-2.0-or-later",
 	"description": "",
 	"require": {
 		"php": ">=7.1"
