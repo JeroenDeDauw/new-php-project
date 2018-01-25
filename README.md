@@ -30,6 +30,8 @@ This is a template for starting new PHP projects. Copy or fork to get started qu
 * Start writing code!
 * If you want TravisCI and/or ScrutinizerCI integration you will need to log in to their respective websites 
 
+[![asciicast](https://asciinema.org/a/XSltW8wY5yuxlev7D3gCe7zkU.png)](https://asciinema.org/a/XSltW8wY5yuxlev7D3gCe7zkU)
+
 (Delete this section)
 
 ## Installation
