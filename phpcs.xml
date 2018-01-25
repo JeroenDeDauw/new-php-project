@@ -166,4 +166,8 @@
     </rule>
 
     <rule ref="./vendor/slevomat/coding-standard/SlevomatCodingStandard/Sniffs/Namespaces/UseDoesNotStartWithBackslashSniff.php" />
+
+    <rule ref="MediaWiki.WhiteSpace.DisallowEmptyLineFunctions">
+        <exclude name="MediaWiki.WhiteSpace.DisallowEmptyLineFunctions.NoEmptyLine" />
+    </rule>
 </ruleset>
