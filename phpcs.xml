@@ -132,6 +132,7 @@
         <exclude name="PEAR.Functions.FunctionCallSignature.Indent" />
         <exclude name="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket" />
         <exclude name="PEAR.Functions.FunctionCallSignature.CloseBracketLine" />
+        <exclude name="PEAR.Functions.FunctionCallSignature.OpeningIndent" />
     </rule>
 
     <!-- Using 3rd party sniff while Squiz isn't there, yet. https://github.com/squizlabs/PHP_CodeSniffer/issues/911 -->
@@ -169,5 +170,6 @@
 
     <rule ref="MediaWiki.WhiteSpace.DisallowEmptyLineFunctions">
         <exclude name="MediaWiki.WhiteSpace.DisallowEmptyLineFunctions.NoEmptyLine" />
+        <exclude name="MediaWiki.WhiteSpace.SpaceAfterClosure.NoWhitespaceAfterClosure" />
     </rule>
 </ruleset>
