@@ -8,6 +8,8 @@ endif
 
 .PHONY: ci test phpunit cs stan covers composer
 
+DEFAULT_GOAL := ci
+
 ci: test cs
 
 test: covers phpunit
