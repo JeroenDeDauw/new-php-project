@@ -5,15 +5,15 @@ php:
 
 sudo: false
 
-services:
-  - docker
-
 install:
-  - travis_retry make composer install
+  - travis_retry composer install
 
 script:
   - composer validate --no-interaction
-  - make ci
+  - ./vendor/bin/covers-validator
+  - ./vendor/bin/phpunit
+  - ./vendor/bin/phpcs -p -s
+  - ./vendor/bin/phpstan analyse --level=1 --no-progress src/ tests/
 
 after_success:
   - if [[ "`phpenv version-name`" != "7.2" ]]; then exit 0; fi
